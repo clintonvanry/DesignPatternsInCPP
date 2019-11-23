@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleBuilder", "SimpleBuil
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluentBuilder", "FluentBuilder\FluentBuilder.vcxproj", "{88612FD0-209C-46A4-A5B0-C616E2EDABDA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluentBuilderWithIntent", "FluentBuilderWithIntent\FluentBuilderWithIntent.vcxproj", "{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{88612FD0-209C-46A4-A5B0-C616E2EDABDA}.Release|x64.Build.0 = Release|x64
 		{88612FD0-209C-46A4-A5B0-C616E2EDABDA}.Release|x86.ActiveCfg = Release|Win32
 		{88612FD0-209C-46A4-A5B0-C616E2EDABDA}.Release|x86.Build.0 = Release|Win32
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Debug|x64.ActiveCfg = Debug|x64
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Debug|x64.Build.0 = Debug|x64
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Debug|x86.ActiveCfg = Debug|Win32
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Debug|x86.Build.0 = Debug|Win32
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Release|x64.ActiveCfg = Release|x64
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Release|x64.Build.0 = Release|x64
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Release|x86.ActiveCfg = Release|Win32
+		{D4AD4434-0FD7-4B5D-B5F6-DAD960C46084}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,10 @@
 // FluentBuilder.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include <memory>
 #include <iostream>
 #include  "HtmlBuilder.h"
-#include <memory>
+
 
 void fluentbuilderRef();
 void fluentbuilderPtr();
@@ -15,7 +16,7 @@ int main()
 	fluentbuilderRef();
 	fluentbuilderPtr();
 	fluentbuilderPtr2();
-	getchar();
+	auto c = getchar();
 }
 
 void fluentbuilderRef()
