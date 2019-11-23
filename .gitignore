@@ -2,3 +2,6 @@
 CreationPatterns/Debug
 CreationPatterns/SimpleBuilder/Debug
 CreationPatterns/FluentBuilder/Debug
+CreationPatterns/FluentBuilderWithIntent/x64
+CreationPatterns/SimpleBuilder/x64
+CreationPatterns/x64
