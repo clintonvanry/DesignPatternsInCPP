@@ -2,13 +2,9 @@
 #include "PersonBuilderBase.h"
 #include <iostream>
 
-Person::Person()
-{
-}
+Person::Person()= default;
 
-Person::~Person()
-{
-}
+Person::~Person()= default;
 
 Person::Person(const Person& src)
 {

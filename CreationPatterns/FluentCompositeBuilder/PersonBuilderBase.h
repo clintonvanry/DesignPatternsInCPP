@@ -18,9 +18,9 @@ protected:
 	explicit PersonBuilderBase(Person& person);
 public:
 	operator Person() const;
-	
-	PersonAddressBuilder lives() const;
-	PersonJobBuilder works() const;
+
+	[[nodiscard]] PersonAddressBuilder lives() const;
+	[[nodiscard]] PersonJobBuilder works() const;
 };
 
 class PersonBuilder : public PersonBuilderBase
