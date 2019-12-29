@@ -9,3 +9,4 @@ CreationPatterns/FluentCompositeBuilder/x64
 CreationPatterns/FluentBuilder/x64
 CreationPatterns/SimpleFactory/x64
 CreationPatterns/InnerFactory/x64
+CreationPatterns/AbstractFactory/x64
