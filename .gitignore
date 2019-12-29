@@ -10,3 +10,4 @@ CreationPatterns/FluentBuilder/x64
 CreationPatterns/SimpleFactory/x64
 CreationPatterns/InnerFactory/x64
 CreationPatterns/AbstractFactory/x64
+CreationPatterns/FunctionalFactory/x64
