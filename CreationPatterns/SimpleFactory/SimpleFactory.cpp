@@ -26,13 +26,27 @@ public:
 		os << "X: " << point.m_x << " Y: " << point.m_y << std::endl;
 		return os;
 	}
+
+	friend class PointFactory; // violation of OCP and makes pointfactroy work
 private:
 	// constructor
 	PointFactoryMethod(float x, float y): m_x(x), m_y(y)
 	{
 		
 	}
-	
+};
+
+class PointFactory
+{
+public:
+	static PointFactoryMethod NewCartesian(float x, float y)
+	{
+		return { x,y };
+	}
+	static PointFactoryMethod NewPolar(float r, float theta)
+	{
+		return { r * cos(theta), r * sin(theta) };
+	}
 };
 
 int main()
@@ -46,6 +60,11 @@ int main()
 	std::cout << pointPolar << std::endl;
 	std::cout << "Cartesian:" << std::endl;
 	std::cout << pointCartesian << std::endl;
+
+
+	auto pointFactoryCartesian = PointFactory::NewCartesian(5, 3);
+	std::cout << pointFactoryCartesian << std::endl;
+
 	
 	return 0;
 }
