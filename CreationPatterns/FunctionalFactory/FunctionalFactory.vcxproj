@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClCompile Include="Coffee.cpp" />
     <ClCompile Include="CoffeeFactory.cpp" />
+    <ClCompile Include="DrinkWithVolumeFactory.cpp" />
     <ClCompile Include="FunctionalFactory.cpp" />
     <ClCompile Include="Tea.cpp" />
     <ClCompile Include="TeaFactory.cpp" />
@@ -157,6 +158,7 @@
   <ItemGroup>
     <ClInclude Include="Coffee.h" />
     <ClInclude Include="CoffeeFactory.h" />
+    <ClInclude Include="DrinkWithVolumeFactory.h" />
     <ClInclude Include="IHotDrink.h" />
     <ClInclude Include="IHotDrinkFactory.h" />
     <ClInclude Include="Tea.h" />

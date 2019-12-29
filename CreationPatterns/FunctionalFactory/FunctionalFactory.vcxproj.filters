@@ -30,6 +30,9 @@
     <ClCompile Include="CoffeeFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DrinkWithVolumeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IHotDrink.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CoffeeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkWithVolumeFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
