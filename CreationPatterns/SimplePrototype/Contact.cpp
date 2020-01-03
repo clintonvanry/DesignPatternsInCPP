@@ -8,7 +8,7 @@ Contact::Contact(): m_address(nullptr)
 Contact::~Contact()
 {
 	
-	delete m_address; //causes a memory leak
+	delete m_address; 
 	m_address = nullptr;
 
 }
