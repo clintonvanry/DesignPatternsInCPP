@@ -7,17 +7,17 @@ Contact::Contact(): m_address(nullptr)
 
 Contact::~Contact()
 {
-	if (m_address != nullptr) 
-	{
-		delete m_address; //causes a memory leak
-		m_address = nullptr;
-	}
+	
+	delete m_address; //causes a memory leak
+	m_address = nullptr;
+
 }
 
 Contact::Contact(const Contact& src)
 {
 	m_name = src.m_name;
-	m_address = src.m_address;
+	m_address = new Address( *src.m_address);
+	
 }
 
 Contact& Contact::operator=(const Contact& rhs)
