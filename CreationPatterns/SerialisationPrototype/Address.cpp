@@ -1,6 +1,13 @@
 #include "Address.h"
 #include <ostream>
 
+
+Address::Address()
+{
+	
+}
+
+
 void swap(Address& first, Address& second) noexcept
 {
 	std::swap(first.m_street, second.m_street);

@@ -2,12 +2,25 @@
 #include <string>
 #include <utility>
 #include "Address.h"
+#include <boost/serialization/serialization.hpp>
+
+using namespace boost;
 
 class Contact
 {
 private:
 	std::string m_name{ "" };
 	Address* m_address{};
+
+	friend class serialization::access;
+	
+	template <class archive>
+	void serialize(archive& ar, const unsigned version) const
+	{
+		ar & m_name;
+		ar & m_address;
+	}
+
 public:
 	Contact();
 	virtual ~Contact();

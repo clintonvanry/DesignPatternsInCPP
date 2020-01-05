@@ -1,6 +1,10 @@
 #pragma once
 #include <string>
 #include <utility>
+#include <boost/serialization/serialization.hpp>
+
+using namespace boost;
+
 
 class Address
 {
@@ -8,8 +12,19 @@ private:
 	std::string m_street, m_city;
 	int m_suit = 0;
 
+	friend class serialization::access;
+
+	template <class archive>
+	void serialize(archive& ar, const unsigned version) const
+	{
+		ar & m_street;
+		ar & m_city;
+		ar & m_suit;
+	}
+
 public:
-	Address() = default;
+	Address();
+	
 	virtual ~Address() = default;
 
 	Address(const Address& src);
