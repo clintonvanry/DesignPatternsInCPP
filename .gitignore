@@ -12,3 +12,4 @@ CreationPatterns/InnerFactory/x64
 CreationPatterns/AbstractFactory/x64
 CreationPatterns/FunctionalFactory/x64
 CreationPatterns/SimplePrototype/x64
+CreationPatterns/SerialisationPrototype/x64
