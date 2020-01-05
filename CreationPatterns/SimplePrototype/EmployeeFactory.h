@@ -1,5 +1,6 @@
 #pragma once
 #include "Contact.h"
+#include <memory>
 
 class EmployeeFactory
 {
